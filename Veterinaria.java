@@ -72,15 +72,7 @@ public class Veterinaria {
                     animal.setEspecie(leerString.nextLine());
                     System.out.print("  Introduce la nueva edad: ");
                     animal.setEdad(leerInt.nextInt());
-                    System.out.println("|-------------------------------------------|");
-                    System.out.println(" Datos Del Diagnostico: ");
-                    System.out.println("|-------------------------------------------|");
-                    System.out.print("  Introduce la nueva Fecha: ");
-                    fecha1 = leerString.nextLine();                    
-                    System.out.print("  Introduce la nueva Descripcion: ");
-                    descripcion1 = leerString.nextLine();
-                    System.out.println("|-------------------------------------------|");
-                    animal.setContenedor(new Diagnostico(fecha1, descripcion1));
+                    System.out.println("|-------------------------------------------|");                    
                     break;
                 case 5:
                     System.out.println("|-------------------------------------------|");
@@ -95,6 +87,15 @@ public class Veterinaria {
                     System.out.println("|-------------------------------------------|");                    
                     break;
                 case 6:
+                    System.out.println("|-------------------------------------------|");                    
+                    System.out.println(" Datos Del Diagnostico: ");
+                    System.out.println("|-------------------------------------------|");
+                    System.out.print("  Introduce la nueva Fecha: ");
+                    fecha1 = leerString.nextLine();                    
+                    System.out.print("  Introduce la nueva Descripcion: ");
+                    descripcion1 = leerString.nextLine();
+                    System.out.println("|-------------------------------------------|");
+                    animal.setContenedor(new Diagnostico(fecha1, descripcion1));
                     break;
                 case 7:
                     break;
