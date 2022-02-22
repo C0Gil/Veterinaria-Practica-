@@ -52,6 +52,10 @@ public class Veterinaria {
                     System.out.println("|-------------------------------------------|");
                     break;
                 case 3:
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" Resumen:");
+                    System.out.println(" " +animal.getContenedor());
+                    System.out.println("|-------------------------------------------|");    
                     break;
                 case 4:
                     break;
