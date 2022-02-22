@@ -35,7 +35,7 @@ public class Diagnostico {
 
     @Override
     public String toString() {
-        return "Diagnostico{" + "fecha=" + fecha + ", descripcion=" + descripcion + '}';
+        return "Diagnostico { " + "fecha = " + fecha + ", descripcion = " + descripcion + " }";
     }        
     
 }
