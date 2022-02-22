@@ -55,7 +55,7 @@ public class Mascota {
 
     @Override
     public String toString() {
-        return "Mascota{" + "nombre=" + nombre + ", especie=" + especie + ", edad=" + edad + ", contenedor=" + contenedor + '}';
+        return "Mascota { " + "nombre = " + nombre + ", especie = " + especie + ", edad = " + edad + ", contenedor = " + contenedor + " }";
     }        
     
 }
