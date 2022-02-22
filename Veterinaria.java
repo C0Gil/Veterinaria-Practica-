@@ -20,7 +20,7 @@ public class Veterinaria {
         Dueno persona = new Dueno("Alberto", "Adolfo Lopez Mateos", "7712343456", animal);
         
         Scanner leer = new Scanner(System.in);
-        int caso;
+        int caso = 0;
         do{
             System.out.println("|-------------------------------------------|");
             System.out.println(" MENU PRINCIPAL");            
@@ -40,6 +40,10 @@ public class Veterinaria {
             
             switch(caso){
                 case 1:
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" Resumen:");
+                    System.out.println( persona.toString());
+                    System.out.println("|-------------------------------------------|");
                     break;
                 case 2:
                     break;
