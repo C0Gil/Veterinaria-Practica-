@@ -20,7 +20,12 @@ public class Veterinaria {
         Dueno persona = new Dueno("Alberto", "Adolfo Lopez Mateos", "7712343456", animal);
         
         Scanner leer = new Scanner(System.in);
+        Scanner leerInt = new Scanner(System.in);
+        Scanner leerString = new Scanner(System.in);
+        
         int caso = 0;
+        String fecha1;
+        String descripcion1;
         do{
             System.out.println("|-------------------------------------------|");
             System.out.println(" MENU PRINCIPAL");            
@@ -58,6 +63,24 @@ public class Veterinaria {
                     System.out.println("|-------------------------------------------|");    
                     break;
                 case 4:
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" Datos Del Animal: ");
+                    System.out.println("|-------------------------------------------|");
+                    System.out.print("  Introduce el nuevo nombre: ");
+                    animal.setNombre(leerString.nextLine());
+                    System.out.print("  Introduce la nueva especie: ");
+                    animal.setEspecie(leerString.nextLine());
+                    System.out.print("  Introduce la nueva edad: ");
+                    animal.setEdad(leerInt.nextInt());
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" Datos Del Diagnostico: ");
+                    System.out.println("|-------------------------------------------|");
+                    System.out.print("  Introduce la nueva Fecha: ");
+                    fecha1 = leerString.nextLine();                    
+                    System.out.print("  Introduce la nueva Descripcion: ");
+                    descripcion1 = leerString.nextLine();
+                    System.out.println("|-------------------------------------------|");
+                    animal.setContenedor(new Diagnostico(fecha1, descripcion1));
                     break;
                 case 5:
                     break;
