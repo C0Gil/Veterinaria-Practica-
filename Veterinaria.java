@@ -103,6 +103,9 @@ public class Veterinaria {
                     System.out.println("|-------------------------------------------|");
                     break;
                 default:
+                    System.out.println("*********************************************");
+                    System.out.println(" HAS INGRESADO UNA OPCION INVALIDA D: ");       
+                    System.out.println("*********************************************");
             }
             
         }while(caso != 7);
