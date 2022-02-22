@@ -55,7 +55,7 @@ public class Dueno {
 
     @Override
     public String toString() {
-        return "Dueno{" + "nombre=" + nombre + ", direccion=" + direccion + ", telefono=" + telefono + ", mascota=" + mascota + '}';
+        return "Dueno { " + "nombre = " + nombre + ", direccion = " + direccion + ", telefono = " + telefono + ", mascota = " + mascota + " }";
     }
         
 }
