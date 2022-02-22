@@ -98,6 +98,9 @@ public class Veterinaria {
                     animal.setContenedor(new Diagnostico(fecha1, descripcion1));
                     break;
                 case 7:
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" ADIOS :D");
+                    System.out.println("|-------------------------------------------|");
                     break;
                 default:
             }
