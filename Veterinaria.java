@@ -83,6 +83,16 @@ public class Veterinaria {
                     animal.setContenedor(new Diagnostico(fecha1, descripcion1));
                     break;
                 case 5:
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" Datos Del Dueno: ");
+                    System.out.println("|-------------------------------------------|");
+                    System.out.print("  Introduce el nuevo nombre: ");
+                    persona.setNombre(leerString.nextLine());
+                    System.out.print("  Introduce la nueva direccion: ");
+                    persona.setDireccion(leerString.nextLine());
+                    System.out.print("  Introduce el nuevo telefono: ");
+                    persona.setTelefono(leerString.nextLine());
+                    System.out.println("|-------------------------------------------|");                    
                     break;
                 case 6:
                     break;
