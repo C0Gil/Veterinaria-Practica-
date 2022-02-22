@@ -42,10 +42,14 @@ public class Veterinaria {
                 case 1:
                     System.out.println("|-------------------------------------------|");
                     System.out.println(" Resumen:");
-                    System.out.println( persona.toString());
+                    System.out.println( " " + persona.toString());
                     System.out.println("|-------------------------------------------|");
                     break;
                 case 2:
+                    System.out.println("|-------------------------------------------|");
+                    System.out.println(" Resumen:");
+                    System.out.println(" " + animal.toString());
+                    System.out.println("|-------------------------------------------|");
                     break;
                 case 3:
                     break;
